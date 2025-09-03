@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://your-git-repo-url.git'
+                git branch: 'master', url: 'https://github.com/SharaOps/bilanx.git'
             }
         }
 
